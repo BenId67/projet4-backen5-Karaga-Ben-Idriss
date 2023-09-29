@@ -1,0 +1,57 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.im {
+    height:100vh;
+    opacity: 0.8;
+}
+.burkina {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+.img-text {
+    padding: 20%;
+}
+.burkina1 {
+    justify-content: center;
+}
+.burkina2 {
+    text-align: center;
+}
+.visite {
+    border: 0px solid;
+    border-radius: 5px;
+    background-color:#0d6efd;
+}
+.burkina2img {
+    height: 300px;
+    width: 340px;
+}
+
+@media screen and (max-width:300px) {
+    .burkina {
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .im {
+        height: 60vh;
+        width: 250px;
+        opacity: 1;
+    }
+    .burkina1{
+        justify-content: baseline;
+    }
+    .burkina2 {
+        text-align: start;
+    }
+    .burkina2img {
+        height: 60vh;
+        width: 250px;
+    }
+}

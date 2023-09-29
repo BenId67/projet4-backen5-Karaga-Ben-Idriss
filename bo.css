@@ -1,0 +1,19 @@
+ body {
+   background-color: rgb(255, 255, 255);
+ }
+
+ .title {
+    margin-left: 80px;
+ }
+
+ .bobo1 {
+    margin-left: 150px;
+    margin-right: 300px;
+    font-size: 25px;
+    background-color: rgb(169, 181, 192);
+    border-radius: 0px 0px 100px 0px;
+ }
+ .boboimg {
+    width: 516px;
+    height: 339px;
+ }

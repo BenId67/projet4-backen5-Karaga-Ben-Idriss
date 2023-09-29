@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+}
+.title3 {
+    margin-left: 80px;
+}
+
+.banfora {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #fff;
+}
+.banfora1 {
+
+}
+.banforaimg {
+ width: 700px;
+ height: 525px;
+ margin-left: 80px;
+}
+@media screen and (max-width:300px) {
+    .title3 {
+        margin-left: 40px;
+    }
+    .banfora {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 15px;
+    }
+    .banforaimg {
+        width: 200px;
+        height: 180px;
+        margin-left: 20px;
+    }
+}

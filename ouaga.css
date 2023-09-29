@@ -1,0 +1,44 @@
+body {
+   
+    background-color: #fff;
+}
+.title2 {
+    margin-left: 80px;
+}
+.ouaga {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    margin-right: 50px;
+    margin-left: 50px;
+    column-gap: 10px;
+}
+.ouaga1 {
+   border-radius: 20px;
+   background-color: aliceblue;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.ouagaimg {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+@media screen and (max-width:300px) {
+    .title {
+        margin: 10px;
+    }
+    .ouaga {
+        grid-template-columns: 1fr;
+        margin: 0px;
+        row-gap: 20px;
+    }
+    .ouaga1 {
+        font-size: 15px;
+    }
+    .ouagaimg {
+        width: 250px;
+        height: 200px;
+    }
+}
